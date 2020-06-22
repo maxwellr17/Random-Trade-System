@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+      "outDir": "install"
+    },
+    "files": ["src/dataretriever.ts"]
+  }

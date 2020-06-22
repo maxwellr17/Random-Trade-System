@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://localhost:8080",
+    "integrationFolder": "test/",
+    "fixturesFolder": "data/",
+    "watchForFileChanges": true
+}
