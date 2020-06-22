@@ -26,12 +26,10 @@ describe('CSV', () => {
           // test that price and volume values are indeed the same
           expect(parseFloat(elem.find("td:eq(3)").text())).to.equal(parseFloat(table[i]['price']));
           expect(parseFloat(elem.find("td:eq(4)").text())).to.equal(parseFloat(table[i]['volume']));
-          //expect(i).to.be.lessThan(table.length);
+          expect(i).to.be.lessThan(table.length);
           i++;
         }
       });
-
-      // expect(i).to.equal(table.length);
     }); 
 
   });
