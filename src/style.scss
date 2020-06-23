@@ -1,10 +1,15 @@
-$body-bg: lightblue;
-$body-color: #111;
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-
+$jumbotron-color:  #D4D4E0;
+$bgcolor:  #EAEAF3;
 .cntr {
-    text-align: "center";
-    color: "lightblue";
+    text-align: center;
+}
+
+body {
+    background-color: $bgcolor;
+}
+
+.jumbotron {
+    background-color: $jumbotron-color;
 }
 

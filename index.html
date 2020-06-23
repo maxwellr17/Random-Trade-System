@@ -30,7 +30,7 @@
             <div ng-if="all_data_retrieved">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="jumbotron">
+                        <div class="jumbotron jumbotron-left">
                            <h3>Historical Price Data</h3>
                             <div id='chart'>
                                 <canvas id="line" class="chart chart-line" chart-data="prices"
@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="jumbotron">
+                        <div class="jumbotron jumbotron-right">
                             <h3> Most Recent Trades</h3>
                             {{last_trades.length}} new trades
         

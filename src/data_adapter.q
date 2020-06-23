@@ -113,6 +113,8 @@ send:{[h]neg[h].j.j output_dict}
 
 
 / create recurring timer function
+i: 0;
+
 ontimer: {
     [timestamp]
     show timestamp;
@@ -151,6 +153,13 @@ ontimer: {
 
     show rnd;
     show get_last_n_trades [rnd; trades];
+
+
+
+    // run test every other call... system call doesn't work :(
+    //if[0=i mod 2; show system "npx cypress run --spec ../test/data_spec.js"];
+    //i+:1;
+
     };
 
 
